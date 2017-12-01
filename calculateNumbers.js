@@ -1,4 +1,5 @@
-function calculateNumbers(a,b,sign)
+
+var calculateNumbers = function(a,b,sign)
 {
   let _a, _b;
 
@@ -123,4 +124,6 @@ function calculateNumbers(a,b,sign)
 
     return a;
   }).join('');
-}
+};
+
+module.exports = calculateNumbers;
