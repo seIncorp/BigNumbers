@@ -6,3 +6,12 @@ I'm big fan of javascript itself and for that reason I made my firt repository a
 
 In return you will get numbers in String format.
 
+How to use it?
+
+This is example:
+
+var result = calculateNumbers('12345678901234567890123456789','1234567890123456789012345678912345678','+');
+
+or
+
+var result = calculateNumbers('12345678901234567890123456789','1234567890123456789012345678912345678','-');
